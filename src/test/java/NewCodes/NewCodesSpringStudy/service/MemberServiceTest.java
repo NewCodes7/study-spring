@@ -15,7 +15,7 @@ class MemberServiceTest {
 
     @BeforeEach
     public void beforeEach() {
-        memberRepository = new MemoryMemberRepository(); // 인터페이스여서 가능?
+        memberRepository = new MemoryMemberRepository(); // 인터페이스여서 가능? 그런 듯.
         memberService = new MemberService(memberRepository);
     }
 
